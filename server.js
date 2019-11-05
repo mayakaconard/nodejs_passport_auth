@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-//require('./app/routes/routes')(app);
+app.use('/', require('./routes/index'));
 
 const PORT = process.env.PORT || 3000;
 
