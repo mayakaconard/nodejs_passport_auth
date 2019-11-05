@@ -21,7 +21,10 @@
   "author": "Conard Conardson",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "nodemon": "^1.19.4"
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1"
   }
 }
