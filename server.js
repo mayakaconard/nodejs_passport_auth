@@ -10,11 +10,11 @@ app.use(expressLayouts);
 app.set('view engine', 'ejs');
 
 
-db.connect();
-db.query('select * from users', (error, result) => {
-    console.log('connected!!');
-    console.log(result);
-});
+// db.connect();
+// db.query('select * from users', (error, result) => {
+//     console.log('connected!!');
+//     console.log(result);
+// });
 
 
 // parse requests of content-type - application/x-www-form-urlencoded
